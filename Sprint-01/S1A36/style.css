@@ -1,0 +1,43 @@
+main {
+    width: 400px;
+    border: 1px solid #1b1a28;
+    background-color: #5380dc;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+section {
+    background-color: #ffffff;
+    width: 400px;
+    text-align: center;
+    border-radius: 50px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 25px;
+    color: #205ec2
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #205ec2;
+}
+
+a:hover {
+    color: #1b1a28;
+    cursor: pointer;
+}

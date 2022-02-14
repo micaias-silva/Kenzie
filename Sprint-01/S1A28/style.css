@@ -1,0 +1,11 @@
+p {
+    color: blue;
+}
+
+.last {
+    font-size: 40px;
+}
+
+#last_p {
+    font-size: 40px;    
+}

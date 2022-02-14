@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Faça seu cadastro</h1>
+        <form action="">
+            <fieldset>
+                <legend>Informações de Login</legend>
+
+                <label for="email">E-mail:</label>
+                <input id="email" type="email" placeholder="Digite o seu E-mail" name="email" required>
+
+                <br>
+
+                <label for="password">Senha:</label>
+                <input id="password" type="password" placeholder="Digite sua senha" name="password" required minlength="8" maxlength="12">
+            </fieldset>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="name">Primeiro Nome:</label>
+                <input id="name" type="text" name="name" required placeholder="Digite seu nome">
+                
+                <br>
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input id="sobrenome" type="text" name="lastname" required placeholder="Digite seu sobrenome">
+                
+                <br>
+
+                <label for="sexo">Gênero:</label>
+                <select name="sexo" id="sexo" required>
+                    <option value="">--- Selecione uma Opção ---</option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                    <option value="N">Não binário</option>
+                    <option value="I">Não quero falar</option>
+                </select>
+
+                <br>
+
+                <label for="cpf">CPF:</label>
+                <input type="number" id="cpf" name="cpf" placeholder="12345678912" required minlength="11"> 
+                
+                <br>
+
+                <label for="telefone">Telefone:</label>
+                <input id="telefone"type="tel" placeholder="+55 (00) 123456789" required>
+
+                <br>
+
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" required>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label for="cep">CEP:</label>
+                <input id="cep" type="number" name="postal_code" placeholder="00000000" required>
+                
+                <br>
+
+                <label for="rua">Rua:</label>
+                <input type="text" name="rua" id="rua" placeholder="Endereço da Rua" required>
+
+                <br>
+
+                <label for="numero">Número:</label>
+                <input type="number" name="numero" id="numero" placeholder="X">
+
+                <br>
+
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="bairro" id="bairro" placeholder="Bairro onde eu moro">
+
+                <br>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Cidade onde eu moros" required>
+
+                <br>
+
+                <label for="seleção-estado:">Estado</label>
+                <select name="estado" id="seleção-estado" required>
+                    <option value="">Escolha uma opção</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+
+            </fieldset>
+
+            <button>Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
