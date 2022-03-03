@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, #f4ddec, #f1f7f3);
+      
+  }
+  
+  .form {
+    background: white;
+    width: 300px;
+    max-width: 30vw;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 15px;
+  }
+
+  .form input {
+    font-family: 'Roboto';
+    background-color: #f2f2f2;
+    width: 90%;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+  
+  }
+  .form #username {
+    background-color: #c4c4c4;
+  
+  }
+  .form button {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    background-color: #7b4ae4;
+    width: 96.6%;
+    border: none;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .message {
+    font-family: 'Roboto';
+  }
+  
+  
