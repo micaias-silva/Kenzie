@@ -1,0 +1,17 @@
+#box1 {
+    width: 33vw;
+    height: 33vh;
+    background-color: red;
+}
+
+#box2 {
+    width: 33vw;
+    height: 33vh;
+    background-color: green;
+}
+
+#box3 {
+    width: 33vw;
+    height: 33vh;
+    background-color: blue;
+}
