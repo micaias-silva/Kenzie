@@ -1,0 +1,9 @@
+div {
+    width: 150px;
+    padding: 50px;
+    margin: 10px;
+    background-color: #398bde;
+    border: 2px dashed white;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px rgb(59, 140, 222);
+}
