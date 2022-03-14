@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 85.2vh;
+}
+
+.content aside {
+    background-color: #c4c4c4;
+    height: 100%;
+    width: 14.22vw;
+}
+
+.content section {
+    padding: 10px;
+    height: 100%;
+    width: 70vw;
+}
+
+figure {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #333333;
+    padding: 10px;
+    padding-top: 30px;
+}

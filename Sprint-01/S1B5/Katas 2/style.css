@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+main {
+    background-color: darkred;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #fff
+}
+
+.gallery {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image {
+    color: red;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+}
