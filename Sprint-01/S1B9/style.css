@@ -1,0 +1,27 @@
+ul{
+  list-style: none;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+ul li{
+  display: inline-block;
+  background-color: #5d00ff;
+  margin: 0.5vw;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+ul li:hover {
+  background-color: #ccc;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+ul li a{
+ color: #FFF;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+}
