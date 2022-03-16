@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(90deg, #a8c0ff, #3f2b96);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.velha {
+    display: flex;
+    max-width: 50%;
+    height: 50vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10% auto 0 auto;
+    align-content: center;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    border: white 1px solid;
+    font-size: 40px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+.caixa:hover {
+    background-color: darkred;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #e75170;
+    border: none;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
