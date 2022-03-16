@@ -1,0 +1,33 @@
+.topo .content figure img {
+    display: block;
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+}
+
+.topo .content {
+    background-color: #673ab7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo .content nav ul li {
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    display: inline-block
+}
+
+.topo .content nav ul li a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 5px 8px;
+    font-size: 17px;
+}
+
+.topo .content nav ul li a:hover {
+    border-color: white;
+}
